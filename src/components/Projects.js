@@ -32,7 +32,7 @@ function Projects() {
     
     return (
       <section className="flex-col justify-center h-full xl:w-[1280px] xl:mx-auto mx-10">
-        <div className="justify-center items-center flex p-10">
+        <div className="justify-center items-center flex p-10 text-center">
             <div className="flex-col">
                 <p className="flex justify-center text-xl text-slate-700">Projects</p>
                 <p className="flex justify-center text-4xl font-semibold text-cyan-900">Graphics Design</p>
@@ -80,7 +80,7 @@ function Projects() {
         </div>
 
 
-        <div className="justify-center items-center flex p-10 mt-24">
+        <div className="justify-center items-center flex p-10 mt-24 text-center">
             <div className="flex-col">
                 <p className="flex justify-center text-xl text-slate-700">Projects</p>
                 <p className="flex justify-center text-4xl font-semibold text-cyan-900">Video Editing</p>
@@ -112,7 +112,7 @@ function Projects() {
         </div>
 
 
-        <div className="justify-center items-center flex p-10 mt-24">
+        <div className="justify-center items-center flex p-10 mt-24 text-center">
             <div className="flex-col">
             <p className="flex justify-center text-xl text-slate-700">Projects</p>
             <p className="flex justify-center text-4xl font-semibold text-cyan-900">Web Development</p>
