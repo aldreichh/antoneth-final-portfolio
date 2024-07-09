@@ -4,7 +4,7 @@ function Home() {
     return (
     <section className="flex justify-center items-center h-full">
         <div className="flex-col w-full pt-48 pb-40 rounded-2xl">
-            <div className="h-96 flex-col flex justify-center items-center py-56 bg-slate-200 xl:mx-0 mx-10">
+            <div className="h-96 flex-col flex justify-center items-center py-56 bg-slate-200 xl:mx-0 sm:mx-10 md:mx-10">
                 <div className="text-center">
                     <p className="text-7xl font-bold animate-fade-in-bottom">
                         <span className="text-slate-700">John </span>

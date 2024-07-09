@@ -18,7 +18,7 @@ function About() {
     <section className="flex justify-center items-center xl:w-[1280px] xl:mx-auto mx-10">
         <div className="lg:flex">
             <div className="lg:w-2/5 w-full h-full flex-col justify-center items-center border">
-                <div className="w-full h-4/5 flex justify-center items-center lg:p-8 md:px-40 md:py-4 py-8 px-24">
+                <div className="w-full h-4/5 flex justify-center items-center lg:p-8 md:px-40 md:py-4 py-8 px-28">
                     <img src={ProfilePicture}  alt="Profile" className="object-contain shadow-md"/>
                 </div>
                 <div className="w-full flex justify-center items-center text-3xl lg:text-2xl pb-2 text-cyan-900">
@@ -40,7 +40,7 @@ function About() {
                 </div>
             </div>
             <div className="lg:w-3/5 flex-col justify-center items-center p-5 lg:px-10 space-y-5">
-                <div className="flex text-start items-center text-6xl px-24 lg:px-0">
+                <div className="flex text-start items-center sm:text-6xl px-24 lg:px-0 text-5xl">
                     <p className="leading-tight text-cyan-900">Hi, I'm Aldreich, Photo/Video Editor, and UI/UX Designer</p>
                 </div>
                 <div className="flex text-slate-700 px-24 lg:px-0">
