@@ -127,7 +127,7 @@ function Projects() {
                 <button
                     onClick={DromicGithub}
                     type="submit"
-                    className="text-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
+                    className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Github Link    
                 </button>
@@ -138,7 +138,7 @@ function Projects() {
                 <button
                     onClick={ExtenAlertGithub}
                     type="submit"
-                    className="text-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
+                    className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Github Link    
                 </button>
@@ -149,7 +149,7 @@ function Projects() {
                 <button
                     onClick={ExtenAlertAdminGithub}
                     type="submit"
-                    className="text-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
+                    className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Github Link    
                 </button>
@@ -160,7 +160,7 @@ function Projects() {
                 <button
                     onClick={AldreichPortfolioGithub}
                     type="submit"
-                    className="text-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
+                    className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Github Link    
                 </button>
