@@ -2,7 +2,7 @@ import Work1 from '../works/poster2.jpg';
 import Work2 from '../works/work5.jpg';
 import Work3 from '../works/work2.jpg';
 import Work4 from '../works/totebagdesign.png';
-import Work5 from '../works/work9.jpg';
+import Work5 from '../works/work3.jpg';
 import Work6 from '../works/milkteaposter.jpg';
 import Work7 from '../works/esportdesign.jpg';
 import Work8 from '../works/work4.jpg';
@@ -66,16 +66,16 @@ function Projects() {
             grid-cols-1
             sm:grid-cols-2">
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work7} alt="Work 7" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work7} alt="Work 7" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work8} alt="Work 8" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work8} alt="Work 8" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work9} alt="Work 9" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work9} alt="Work 9" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work10} alt="Work 10" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work10} alt="Work 10" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
 
