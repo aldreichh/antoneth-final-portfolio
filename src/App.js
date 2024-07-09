@@ -11,23 +11,23 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="flex-col flex justify-center items-center h-vh font-montserrat overflow-x-hidden">
+    <div className="flex-col flex justify-center items-center font-montserrat overflow-x-hidden">
       <Element name="home" className="xl:w-[1280px] w-screen">
           <Home/>
       </Element>
-      <Element name="about" className="xl:w-[1280px] w-screen h-full">
+      <Element name="about" className="w-screen h-full">
           <About/>
       </Element>
-      <Element name="apps" className="xl:w-[1280px] w-screen h-full">
+      <Element name="apps" className="my-24 w-screen h-full bg-slate-200">
           <Apps/>
       </Element>
-      <Element name="projects" className="xl:w-[1280px] w-screen h-full">
+      <Element name="projects" className="w-screen h-full">
           <Projects/>
       </Element>
       <Element name="contact" className="xl:w-[1280px] w-screen h-full">
           <Contact/>
       </Element >
-      <Footer className="xl:w-[1280px] w-screen h-full"
+      <Footer className="w-screen h-full bg-slate-200"
       />
     </div>
     </>

@@ -47,41 +47,41 @@ function Contact() {
   };
 
     return (
-      <section className="flex justify-center items-center h-full">
+      <section className="flex justify-center items-center h-full mt-24">
         <div className="flex flex-col w-full h-full">
-          <div className="justify-center items-center flex p-10 pt-16">
+          <div className="justify-center items-center flex p-10">
             <div className="flex-col">
-              <p className="flex justify-center text-xl">Contact</p>
-              <p className="flex justify-center text-4xl font-semibold">Get in Touch</p>
+              <p className="flex justify-center text-xl text-slate-700">Contact</p>
+              <p className="flex justify-center text-4xl font-semibold text-cyan-900">Get in Touch</p>
             </div>
           </div>
 
           <div className="flex flex-col lg:flex-row h-full lg:space-x-8 lg:space-y-0 space-y-4">           
-            <div className="lg:w-1/3 w-full lg:p-10 p-6  bg-slate-50 rounded-xl flex-col flex space-y-10 lg:text-start text-center">
+            <div className="lg:w-1/3 w-full lg:p-10 p-6  bg-slate-200 flex-col flex space-y-10 lg:text-start text-center">
               <div className="">
                 <div className="mb-1">
                     <LocationOnOutlinedIcon/>
                 </div>
                 <label className="text-md font-semibold">Address</label>
-                <p className="text-lg text-slate-600">Davao City, Philippines</p>
+                <p className="text-lg text-slate-700">Davao City, Philippines</p>
               </div>
               <div className="">
                 <div className="mb-1">
                   <CallOutlinedIcon/>
                 </div>
                 <label className="text-md font-semibold">Contact Number</label>
-                <p className="text-lg text-slate-600">(+63) 927 391 3735</p>
+                <p className="text-lg text-slate-700">(+63) 927 391 3735</p>
               </div>
               <div className="">
                 <div className="mb-1">
                   <MailOutlinedIcon/>
                 </div>
                 <label className="text-md font-semibold">Email</label>
-                <p className="text-lg text-slate-600">jaldreichrosales@gmail.com</p>
+                <p className="text-lg text-slate-700">jaldreichrosales@gmail.com</p>
               </div>
             </div>
 
-            <div className="lg:w-2/3 w-full flex items-center justify-center border rounded-xl px-10">
+            <div className="lg:w-2/3 w-full flex items-center justify-center border px-5">
               <form className="p-6 w-full" onSubmit={handleSubmit}>
                 <div className="flex mb-4 space-x-4">
                   <div className="w-1/2">
@@ -92,7 +92,7 @@ function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="p-4 mt-1 h-10 block w-full rounded-md border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      className="p-4 mt-1 h-10 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                       required
                     />
                   </div>
@@ -104,7 +104,7 @@ function Contact() {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      className="p-4 mt-1 h-10 block w-full rounded-md border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                      className="p-4 mt-1 h-10 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                       required
                     />
                   </div>
@@ -116,7 +116,7 @@ function Contact() {
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
-                    className="p-4 mt-1 block w-full rounded-md border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="p-4 mt-1 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                     rows="6"
                     required
                   ></textarea>
@@ -124,7 +124,7 @@ function Contact() {
                 <div className="flex items-center">
                 <button
                   type="submit"
-                  className="mr-2 lg:w-3/12 w-5/4 py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-400 hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  className="mr-2 lg:w-3/12 w-5/4 py-3 px-4 border border-transparent shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Send Message
                 </button>
