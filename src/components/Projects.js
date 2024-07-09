@@ -121,7 +121,7 @@ function Projects() {
         <div className="grid gap-8
             grid-cols-1
             lg:grid-cols-2">
-            <div className="border flex justify-center items-center flex-col p-4">
+            <div className="border flex justify-center items-center flex-col p-4 text-center">
                 <img src={DromicSystem} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">Dromic System | OJT Project</p>
                 <button
@@ -132,7 +132,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4">
+            <div className="border flex justify-center items-center flex-col p-4 text-center">
                 <img src={ExtenAlertSystem} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">ExtenAlert! Browser Extension | Capstone Project</p>
                 <button
@@ -143,7 +143,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4">
+            <div className="border flex justify-center items-center flex-col p-4 text-center">
                 <img src={ExtenAlertAdmin} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">ExtenAlert! Admin View | Capstone Project</p>
                 <button
@@ -154,7 +154,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4">
+            <div className="border flex justify-center items-center flex-col p-4 text-center">
                 <img src={AldreihcPortfolio} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110 "/>
                 <p className="mt-4 text-xl text-slate-700">Website Portfolio</p>
                 <button
