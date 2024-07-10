@@ -46,17 +46,18 @@ function About() {
                 <div className="flex text-slate-700 px-24 lg:px-0">
                     <div className="w-1/2 text-xl">
                         <ul className="leading-9">
-                            <li>● Logo Design</li>
-                            <li>● Poster Design</li>
+                            <li>● Logo Design and Branding</li>
+                            <li>● Creative Poster Design</li>
                             <li>● Video Editing</li>
-                            <li>● Web Design</li>
+                            <li>● Website Design</li>
                         </ul>
                     </div>
                     <div className="w-1/2 text-xl">
                         <ul className="leading-9">
-                            <li>● Vlog Edit</li>
-                            <li>● Vexel/Vector Art Design</li>
+                            <li>● Vlog Editing and Enhancement</li>
+                            <li>● Vexel and Vector Art Design</li>
                             <li>● Front-end Development</li>
+                            <li>● Photo Editing and Retouching</li>
                         </ul>
                     </div>
                 </div>
