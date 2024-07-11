@@ -52,7 +52,7 @@ function Contact() {
           <div className="justify-center items-center flex p-10">
             <div className="flex-col">
               <p className="flex justify-center text-xl text-slate-700">Contact</p>
-              <p className="flex justify-center text-4xl font-semibold text-cyan-900">Get in Touch</p>
+              <p className="flex justify-center text-4xl font-semibold text-cyan-900">Get In Touch</p>
             </div>
           </div>
 

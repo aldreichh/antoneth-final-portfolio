@@ -54,10 +54,10 @@ function About() {
                     </div>
                     <div className="w-1/2 text-xl">
                         <ul className="leading-9">
-                            <li>● Vlog Editing and Enhancement</li>
                             <li>● Vexel and Vector Art Design</li>
-                            <li>● Front-end Development</li>
                             <li>● Photo Editing and Retouching</li>
+                            <li>● Computer Troubleshooting</li>
+                            <li>● Front-end Development</li>                          
                         </ul>
                     </div>
                 </div>

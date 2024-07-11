@@ -19,7 +19,7 @@ function Home() {
                             <span>•</span>
                             <span>Photo Editor</span>
                             <span>•</span>
-                            <span>UI/UX Design</span>
+                            <span>UI/UX Designer</span>
                         </p>
                     </div>
                 </div>

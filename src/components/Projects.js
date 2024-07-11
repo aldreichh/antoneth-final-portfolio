@@ -43,22 +43,22 @@ function Projects() {
             sm:grid-cols-2
             lg:grid-cols-3">
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work1} alt="Work 1" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work1} alt="Work 1" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work2} alt="Work 2" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work2} alt="Work 2" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work3} alt="Work 3" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work3} alt="Work 3" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work4} alt="Work 4" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work4} alt="Work 4" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work5} alt="Work 5" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work5} alt="Work 5" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work6} alt="Work 6" className="h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work6} alt="Work 6" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
 
@@ -66,16 +66,16 @@ function Projects() {
             grid-cols-1
             sm:grid-cols-2">
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work7} alt="Work 7" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work7} alt="Work 7" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work8} alt="Work 8" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work8} alt="Work 8" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work9} alt="Work 9" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work9} alt="Work 9" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
             <div className="border p-2 flex justify-center items-center">
-                <img src={Work10} alt="Work 10" className="h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={Work10} alt="Work 10" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
 
@@ -122,7 +122,7 @@ function Projects() {
             grid-cols-1
             lg:grid-cols-2">
             <div className="border flex justify-center items-center flex-col p-4 text-center">
-                <img src={DromicSystem} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={DromicSystem} alt="Work 6" className="shadow-md object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">Dromic System | OJT Project</p>
                 <button
                     onClick={DromicGithub}
@@ -133,7 +133,7 @@ function Projects() {
                 </button>
             </div>
             <div className="border flex justify-center items-center flex-col p-4 text-center">
-                <img src={ExtenAlertSystem} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={ExtenAlertSystem} alt="Work 6" className="shadow-md object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">ExtenAlert! Browser Extension | Capstone Project</p>
                 <button
                     onClick={ExtenAlertGithub}
@@ -144,7 +144,7 @@ function Projects() {
                 </button>
             </div>
             <div className="border flex justify-center items-center flex-col p-4 text-center">
-                <img src={ExtenAlertAdmin} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110"/>
+                <img src={ExtenAlertAdmin} alt="Work 6" className="shadow-md object-fill transform transition-transform duration-300 hover:scale-110"/>
                 <p className="mt-4 text-xl text-slate-700">ExtenAlert! Admin View | Capstone Project</p>
                 <button
                     onClick={ExtenAlertAdminGithub}
@@ -155,7 +155,7 @@ function Projects() {
                 </button>
             </div>
             <div className="border flex justify-center items-center flex-col p-4 text-center">
-                <img src={AldreihcPortfolio} alt="Work 6" className="object-fill transform transition-transform duration-300 hover:scale-110 "/>
+                <img src={AldreihcPortfolio} alt="Work 6" className="shadow-md object-fill transform transition-transform duration-300 hover:scale-110 "/>
                 <p className="mt-4 text-xl text-slate-700">Website Portfolio</p>
                 <button
                     onClick={AldreichPortfolioGithub}
