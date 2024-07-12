@@ -6,6 +6,8 @@ import TwitterLogo from "../images/TwitterLogo.png";
 import GithubLogo from "../images/GithubLogo.png";
 import Button from '@mui/material/Button';
 import RosalesCV from '../files/JohnAldreichRosalesCV.pdf'
+import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
+import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 
 function About() {
     const handleDownload = () => {
@@ -24,7 +26,7 @@ function About() {
                 <div className="w-full flex justify-center items-center text-3xl lg:text-2xl pb-2 text-cyan-900">
                     <p>John Aldreich Rosales</p>  
                 </div>
-                <div className="w-full flex justify-center items-center space-x-4 p-2 mb-6">
+                <div className="w-full flex justify-center items-center space-x-4 p-2 mb-4">
                     <a href="https://www.facebook.com/aldreichj" target="_blank" rel="noopener noreferrer">
                     <img src={FacebookLogo} alt="Facebook Logo" className="h-10 object-contain"/>
                     </a>
@@ -39,26 +41,42 @@ function About() {
                     </a>         
                 </div>
             </div>
-            <div className="lg:w-3/5 flex-col justify-center items-center p-5 lg:px-10 space-y-5">
-                <div className="flex text-start items-center sm:text-6xl px-24 lg:px-0 text-5xl">
+            <div className="lg:w-3/5 flex-col justify-center items-center p-5 lg:px-10 space-y-5 ">
+                <div className="flex text-start items-center sm:text-6xl px-24 lg:px-0 text-5xl ">
                     <p className="leading-tight text-cyan-900">Hi, I'm Aldreich, Photo/Video Editor, and UI/UX Designer</p>
                 </div>
                 <div className="flex text-slate-700 px-24 lg:px-0">
                     <div className="w-1/2 text-xl">
-                        <ul className="leading-9">
-                            <li>● Logo Design and Branding</li>
-                            <li>● Creative Poster Design</li>
-                            <li>● Video Editing</li>
-                            <li>● Website Design</li>
+                        <ul className="leading-9 ">
+                            <li><KeyboardArrowRightOutlinedIcon/> Design and Branding</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Creative Poster Design</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Video Editing</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Website Design</li>
                         </ul>
                     </div>
                     <div className="w-1/2 text-xl">
                         <ul className="leading-9">
-                            <li>● Vexel and Vector Art Design</li>
-                            <li>● Photo Editing and Retouching</li>
-                            <li>● Computer Troubleshooting</li>
-                            <li>● Front-end Development</li>                          
+                            <li><KeyboardArrowRightOutlinedIcon/> Vexel and Vector Art Design</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Photo Editing and Retouching</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Computer Troubleshooting</li>
+                            <li><KeyboardArrowRightOutlinedIcon/> Front-end Development</li>                          
                         </ul>
+                    </div>
+                </div>
+                <div className="w-full flex flex-col justify-start items-start pt-4 text-slate-700 space-y-2 border-t px-24 lg:px-0">
+                    <div className="flex w-full space-x-4 items-center">
+                        <SchoolOutlinedIcon sx={{width:'30px', height:'30px'}}/>
+                        <div>
+                            <p className="text-xl lg:text-md">Bachelor of Science in Information Technology</p>  
+                            <p>University of Southeastern Philippines</p> 
+                        </div>                       
+                    </div>
+                    <div className="flex w-full space-x-4 items-center">
+                    <SchoolOutlinedIcon sx={{width:'30px', height:'30px'}}/>
+                        <div>
+                            <p className="text-xl lg:text-md">Computer Systems Servicing NCII</p>  
+                            <p>Davao City National High School</p> 
+                        </div>  
                     </div>
                 </div>
                 <div className="mt-2 flex justify-start items-center px-24 lg:px-0">
