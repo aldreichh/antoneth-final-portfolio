@@ -1,9 +1,9 @@
-import PhotoshopLogo from '../images/PhotoshopLogo.png';
-import VegasProLogo from '../images/VegasProLogo.png';
-import CanvaLogo from '../images/CanvaLogo.png';
-import ReactJSLogo from '../images/ReactJSLogo.png';
-import HTMLLogo from '../images/HtmlLogo.png';
-import TailwindCSSLogo from '../images/TailwindCSSLogo.png';
+import PhotoshopLogo from '../images/Logo/PhotoshopLogo.png';
+import VegasProLogo from '../images/Logo/VegasProLogo.png';
+import CanvaLogo from '../images/Logo/CanvaLogo.png';
+import ReactJSLogo from '../images/Logo/ReactJSLogo.png';
+import HTMLLogo from '../images/Logo/HtmlLogo.png';
+import TailwindCSSLogo from '../images/Logo/TailwindCSSLogo.png';
 
 function Apps(){
     return(
