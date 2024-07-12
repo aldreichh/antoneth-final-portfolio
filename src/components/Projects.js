@@ -55,7 +55,9 @@ import Skwelahome15 from '../images/Skwelahome/Skwelahome15.png';
 import Skwelahome16 from '../images/Skwelahome/Skwelahome16.png';
 import Skwelahome17 from '../images/Skwelahome/Skwelahome17.png';
 import ReactPlayer from 'react-player'
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Box from '@mui/material/Box';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
@@ -73,35 +75,48 @@ function Projects() {
     const AldreichPortfolioGithub = () => {
         window.open('https://github.com/aldreichh/aldreich-final-portfolio.git', '_blank'); 
     };
-    
+    const AGBGithub = () => {
+        window.open('https://github.com/aldreichh/AGB.git', '_blank'); 
+    };
+    const SkwelahomeGithub = () => {
+        window.open('https://github.com/aldreichh/Skwelahome.git', '_blank'); 
+    };
+
+    useEffect(() => {
+        AOS.init({
+            duration: 800, 
+            easing: 'ease-in-out', 
+            once: false,
+        });
+    }, []);
     return (
       <section className="flex-col justify-center h-full xl:w-[1280px] xl:mx-auto mx-10">
         <div className="justify-center items-center flex p-10 text-center">
             <div className="flex-col">
-                <p className="flex justify-center text-xl text-slate-700">Projects</p>
-                <p className="flex justify-center text-4xl font-semibold text-cyan-900">Graphics Design</p>
+                <p className="flex justify-center text-xl text-slate-700" data-aos="fade-up">Projects</p>
+                <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Graphics Design</p>
             </div>
         </div>
         <div className="grid gap-8
             grid-cols-1
             sm:grid-cols-2
             lg:grid-cols-3">
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work1} alt="Work 1" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work2} alt="Work 2" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work3} alt="Work 3" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work4} alt="Work 4" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work5} alt="Work 5" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work6} alt="Work 6" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
@@ -109,16 +124,16 @@ function Projects() {
         <div className="mt-8 grid gap-8
             grid-cols-1
             sm:grid-cols-2">
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work7} alt="Work 7" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work8} alt="Work 8" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work9} alt="Work 9" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work10} alt="Work 10" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
@@ -126,29 +141,29 @@ function Projects() {
 
         <div className="justify-center items-center flex p-10 mt-24 text-center">
             <div className="flex-col">
-                <p className="flex justify-center text-xl text-slate-700">Projects</p>
-                <p className="flex justify-center text-4xl font-semibold text-cyan-900">Video Editing</p>
+                <p className="flex justify-center text-xl text-slate-700" data-aos="fade-up">Projects</p>
+                <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Video Editing</p>
             </div>
         </div>
         <div className="grid gap-5
             grid-cols-1
             sm:grid-cols-2">
-            <div className="p-2 flex justify-center items-center">
+            <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px'}}>
                     <ReactPlayer url='https://www.youtube.com/watch?v=PrdN0h601Cw' width="100%" height="100%"/>
                 </Box>
             </div>
-            <div className="p-2 flex justify-center items-center">
+            <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
                     <ReactPlayer url='https://www.youtube.com/watch?v=0Ev6Dh4XaKc' width="100%" height="100%" />
                 </Box>
             </div>
-            <div className="p-2 flex justify-center items-center">
+            <div className="p-2 flex justify-center items-center" data-aos="fade-up"> 
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
                     <ReactPlayer url='https://www.youtube.com/watch?v=8og1edPcUsQ' width="100%" height="100%"/>
                 </Box>
             </div>
-            <div className="p-2 flex justify-center items-center">
+            <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
                     <ReactPlayer url='https://www.youtube.com/watch?v=R3hnaYYYCoQ' width="100%" height="100%"/>
                 </Box>
@@ -158,14 +173,14 @@ function Projects() {
 
         <div className="justify-center items-center flex p-10 mt-24 text-center">
             <div className="flex-col">
-            <p className="flex justify-center text-xl text-slate-700">Projects</p>
-            <p className="flex justify-center text-4xl font-semibold text-cyan-900">Web Development</p>
+            <p className="flex justify-center text-xl text-slate-700" data-aos="fade-up">Projects</p>
+            <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Web Development</p>
             </div>
         </div>
         <div className="grid gap-8
             grid-cols-1
             lg:grid-cols-2">
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -187,7 +202,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -211,7 +226,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -233,7 +248,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -255,7 +270,7 @@ function Projects() {
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -272,14 +287,14 @@ function Projects() {
                 </Carousel>
                 <p className="mt-4 text-xl text-slate-700">AGB Inventory System</p>
                 <button
-                    onClick={DromicGithub}
+                    onClick={AGBGithub}
                     type="submit"
                     className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >
                   Github Link    
                 </button>
             </div>
-            <div className="border flex justify-center items-center flex-col p-4 text-center">
+            <div className="border flex justify-center items-center flex-col p-4 text-center" data-aos="fade-up">
                 <Carousel
                     showThumbs={false}
                     infiniteLoop
@@ -306,7 +321,7 @@ function Projects() {
                 </Carousel>
                 <p className="mt-4 text-xl text-slate-700">Skwelahome LMS</p>
                 <button
-                    onClick={DromicGithub}
+                    onClick={SkwelahomeGithub}
                     type="submit"
                     className="flex justify-center mt-2 w-1/4 py-3 px-4 shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
                 >

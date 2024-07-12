@@ -18,28 +18,7 @@ module.exports = {
         '900': 900,
       }
     },
-    animation: {
-      'fade-in-bottom': 'fade-in-bottom 0.7s ease-out',
-    },
-    keyframes: {
-      'fade-in-bottom': {
-        '0%': {
-          opacity: '0',
-          transform: 'translateY(30px)', // Move from bottom
-        },
-        '100%': {
-          opacity: '1',
-          transform: 'translateY(0)', // Move to original position
-        },
-      },
-    },
-    
   },
   plugins: [],
-  variants: {
-    extend: {
-      animation: ['motion-safe'],
-    },
-  },
 }
 
