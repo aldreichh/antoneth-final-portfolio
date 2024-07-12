@@ -71,7 +71,7 @@ function Contact() {
                   <LocationOnOutlinedIcon/>
               </div>
               <label className="text-md font-semibold">Address</label>
-              <p className="text-lg text-slate-700">Davao City, Philippines</p>
+              <p className="text-lg text-slate-700">Davao City, Davao del Sur, Philippines</p>
             </div>
             <div data-aos="fade-up">
               <div className="mb-1">
