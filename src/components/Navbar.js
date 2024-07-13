@@ -8,7 +8,7 @@ function Navbar(){
     <nav className="bg-white shadow-sm w-screen fixed z-50">
         <div className="items-center w-screen xl:w-[1280px] flex m-auto h-16 font-montserrat">
             <div className="w-1/4 text-start text-xl text-cyan-900 xl:pl-0 pl-10">
-                <h1 className="text-2xl font-bold">ALD</h1>
+                <h1 className="text-2xl font-bold">AR</h1>
             </div>
             <div className="w-3/4 text-end text-md space-x-10 text-slate-700 hidden md:block xl:pr-5 pr-16">
                 <Link to="home" spy={true} smooth={true} duration={700} className="cursor-pointer hover:text-cyan-900">
