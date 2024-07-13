@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import emailjs from 'emailjs-com';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
@@ -6,10 +8,16 @@ import CallOutlinedIcon from '@mui/icons-material/CallOutlined';
 import DoneAllOutlinedIcon from '@mui/icons-material/DoneAllOutlined';
 import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
 import RefreshOutlinedIcon from '@mui/icons-material/RefreshOutlined';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function Contact() {
+  useEffect(() => {
+    AOS.init({
+        duration: 700, 
+        easing: 'ease-in-out', 
+        once: true, 
+    });
+  }, []);
+  
   const [checker, setChecker] = useState('');
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
@@ -47,13 +55,7 @@ function Contact() {
       message: ''
     });
   };
-  useEffect(() => {
-    AOS.init({
-        duration: 1000, 
-        easing: 'ease-in-out', 
-        once: true, 
-    });
-  }, []);
+
   return (
     <section className="flex justify-center items-center h-full mt-24">
       <div className="flex flex-col w-full h-full">

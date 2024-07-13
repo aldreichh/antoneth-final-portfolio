@@ -1,4 +1,6 @@
 import React, { useEffect }  from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import ProfilePicture from "../images/ProfilePicture.jpg";
 import FacebookLogo from "../images/Logo/FacebookLogo.png";
 import LinkedInLogo from "../images/Logo/LinkedInLogo.png";
@@ -8,23 +10,23 @@ import Button from '@mui/material/Button';
 import RosalesCV from '../files/JohnAldreichRosalesCV.pdf'
 import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRightOutlined';
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 function About() {
+    useEffect(() => {
+        AOS.init({
+            duration: 700, 
+            easing: 'ease-in-out',
+            once: true,
+        });
+    }, []);
+    
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = RosalesCV;
         link.download = 'JohnAldreichRosalesCV.pdf';
         link.click();
     }
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, 
-            easing: 'ease-in-out',
-            once: true,
-        });
-    }, []);
+
     return (
     <section className="flex justify-center items-center xl:w-[1280px] xl:mx-auto mx-10">
         <div className="lg:flex">

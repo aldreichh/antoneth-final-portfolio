@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Work1 from '../works/poster2.jpg';
 import Work2 from '../works/work5.jpg';
 import Work3 from '../works/work2.jpg';
@@ -55,14 +58,19 @@ import Skwelahome15 from '../images/Skwelahome/Skwelahome15.png';
 import Skwelahome16 from '../images/Skwelahome/Skwelahome16.png';
 import Skwelahome17 from '../images/Skwelahome/Skwelahome17.png';
 import ReactPlayer from 'react-player'
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Box from '@mui/material/Box';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 function Projects() {
+    useEffect(() => {
+        AOS.init({
+            duration: 700, 
+            easing: 'ease-in-out', 
+            once: true,
+        });
+    }, []);
+    
     const DromicGithub = () => {
         window.open('https://github.com/aldreichh/DSWDDromic.git', '_blank'); 
     };
@@ -82,13 +90,6 @@ function Projects() {
         window.open('https://github.com/aldreichh/Skwelahome.git', '_blank'); 
     };
 
-    useEffect(() => {
-        AOS.init({
-            duration: 1000, 
-            easing: 'ease-in-out', 
-            once: true,
-        });
-    }, []);
     return (
       <section className="flex-col justify-center h-full xl:w-[1280px] xl:mx-auto mx-10">
         <div className="justify-center items-center flex p-10 text-center">
