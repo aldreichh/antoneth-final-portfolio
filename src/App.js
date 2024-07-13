@@ -17,31 +17,37 @@ function App() {
         easing: 'ease-in-out', 
         once: false,
     });
-    setTimeout(() => {
-      AOS.refresh();
-    }, 1000);
+    console.log('AOS initialized');
+
+    const handleRefresh = () => {
+      setTimeout(() => {
+        AOS.refresh();
+        console.log('AOS refreshed');
+      }, 100); // Adjust delay as needed
+    };
+    handleRefresh();
   }, []);
   
   return (
     <>
     <Navbar/>
-    <div className="flex-col flex justify-center items-center font-montserrat overflow-x-hidden">
+    <div className="flex-col flex justify-center items-center font-montserrat">
       <Element name="home" className="xl:w-[1280px] w-screen">
           <Home/>
       </Element>
-      <Element name="about" className="w-screen h-full">
+      <Element name="about" className="w-screen">
           <About/>
       </Element>
-      <Element name="apps" className="my-24 w-screen h-full bg-slate-200">
+      <Element name="apps" className="my-24 w-screen bg-slate-200">
           <Apps/>
       </Element>
-      <Element name="projects" className="w-screen h-full">
+      <Element name="projects" className="w-screen">
           <Projects/>
       </Element>
-      <Element name="contact" className="xl:w-[1280px] w-screen h-full">
+      <Element name="contact" className="xl:w-[1280px] w-screen">
           <Contact/>
       </Element >
-      <Footer className="w-screen h-full bg-slate-200"
+      <Footer className="w-screen bg-slate-200"
       />
     </div>
     </>

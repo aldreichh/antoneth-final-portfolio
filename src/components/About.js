@@ -1,4 +1,3 @@
-import React from 'react';
 import ProfilePicture from "../images/ProfilePicture.jpg";
 import FacebookLogo from "../images/Logo/FacebookLogo.png";
 import LinkedInLogo from "../images/Logo/LinkedInLogo.png";

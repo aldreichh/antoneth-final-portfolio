@@ -1,4 +1,3 @@
-import React from 'react';
 import Work1 from '../works/poster2.jpg';
 import Work2 from '../works/work5.jpg';
 import Work3 from '../works/work2.jpg';
