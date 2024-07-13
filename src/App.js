@@ -16,9 +16,10 @@ function App() {
         duration: 700, 
         easing: 'ease-in-out', 
         once: false,
-        mirror: true, 
     });
-    AOS.refresh();
+    setTimeout(() => {
+      AOS.refresh();
+    }, 100);
   }, []);
   
   return (
