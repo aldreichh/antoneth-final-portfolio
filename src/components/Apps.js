@@ -1,6 +1,4 @@
-import React, { useEffect }  from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import PhotoshopLogo from '../images/Logo/PhotoshopLogo.png';
 import VegasProLogo from '../images/Logo/VegasProLogo.png';
 import CanvaLogo from '../images/Logo/CanvaLogo.png';
@@ -9,14 +7,6 @@ import HTMLLogo from '../images/Logo/HtmlLogo.png';
 import TailwindCSSLogo from '../images/Logo/TailwindCSSLogo.png';
 
 function Apps(){
-    useEffect(() => {
-        AOS.init({
-            duration: 700, 
-            easing: 'ease-in-out', 
-            once: true, 
-        });
-    }, []);
-    
     return(
     <>
     <div className="h-full flex flex-col justify-center items-center space-y-10 overflow-auto py-28">

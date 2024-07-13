@@ -1,6 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
@@ -10,14 +8,6 @@ import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
 import RefreshOutlinedIcon from '@mui/icons-material/RefreshOutlined';
 
 function Contact() {
-  useEffect(() => {
-    AOS.init({
-        duration: 700, 
-        easing: 'ease-in-out', 
-        once: true, 
-    });
-  }, []);
-  
   const [checker, setChecker] = useState('');
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({

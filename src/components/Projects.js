@@ -1,6 +1,4 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
 import Work1 from '../works/poster2.jpg';
 import Work2 from '../works/work5.jpg';
 import Work3 from '../works/work2.jpg';
@@ -63,14 +61,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 function Projects() {
-    useEffect(() => {
-        AOS.init({
-            duration: 700, 
-            easing: 'ease-in-out', 
-            once: true,
-        });
-    }, []);
-    
     const DromicGithub = () => {
         window.open('https://github.com/aldreichh/DSWDDromic.git', '_blank'); 
     };
@@ -98,10 +88,7 @@ function Projects() {
                 <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Graphics Design</p>
             </div>
         </div>
-        <div className="grid gap-8
-            grid-cols-1
-            sm:grid-cols-2
-            lg:grid-cols-3">
+        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
             <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work1} alt="Work 1" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
@@ -122,9 +109,7 @@ function Projects() {
             </div>
         </div>
 
-        <div className="mt-8 grid gap-8
-            grid-cols-1
-            sm:grid-cols-2">
+        <div className="mt-8 grid gap-8 grid-cols-1 sm:grid-cols-2">
             <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
                 <img src={Work7} alt="Work 7" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
@@ -146,9 +131,7 @@ function Projects() {
                 <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Video Editing</p>
             </div>
         </div>
-        <div className="grid gap-5
-            grid-cols-1
-            sm:grid-cols-2">
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px'}}>
                     <ReactPlayer url='https://www.youtube.com/watch?v=PrdN0h601Cw' width="100%" height="100%"/>
@@ -170,7 +153,6 @@ function Projects() {
                 </Box>
             </div>
         </div>
-
 
         <div className="justify-center items-center flex p-10 mt-24 text-center">
             <div className="flex-col">

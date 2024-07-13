@@ -1,6 +1,5 @@
-import React, { useEffect }  from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React from 'react';
+
 import ProfilePicture from "../images/ProfilePicture.jpg";
 import FacebookLogo from "../images/Logo/FacebookLogo.png";
 import LinkedInLogo from "../images/Logo/LinkedInLogo.png";
@@ -12,14 +11,6 @@ import KeyboardArrowRightOutlinedIcon from '@mui/icons-material/KeyboardArrowRig
 import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 
 function About() {
-    useEffect(() => {
-        AOS.init({
-            duration: 700, 
-            easing: 'ease-in-out',
-            once: true,
-        });
-    }, []);
-    
     const handleDownload = () => {
         const link = document.createElement('a');
         link.href = RosalesCV;
