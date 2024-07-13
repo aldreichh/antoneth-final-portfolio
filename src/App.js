@@ -15,7 +15,7 @@ function App() {
     AOS.init({
         duration: 700, 
         easing: 'ease-in-out', 
-        once: true,
+        once: false,
     });
     setTimeout(() => {
       AOS.refresh();
