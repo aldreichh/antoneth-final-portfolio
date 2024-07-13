@@ -18,6 +18,7 @@ function App() {
         once: false,
         mirror: true, 
     });
+    AOS.refresh();
   }, []);
   
   return (
