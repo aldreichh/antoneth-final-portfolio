@@ -23,7 +23,7 @@ function App() {
       setTimeout(() => {
         AOS.refresh();
         console.log('AOS refreshed');
-      }, 150); 
+      }, 500); 
     };
     handleRefresh();
   }, []);
