@@ -23,7 +23,7 @@ function App() {
       setTimeout(() => {
         AOS.refresh();
         console.log('AOS refreshed');
-      }, 100); // Adjust delay as needed
+      }, 150); 
     };
     handleRefresh();
   }, []);
@@ -31,7 +31,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <div className="flex-col flex justify-center items-center font-montserrat">
+    <div className="flex-col flex justify-center items-center font-montserrat overflow-x-hidden">
       <Element name="home" className="xl:w-[1280px] w-screen">
           <Home/>
       </Element>
