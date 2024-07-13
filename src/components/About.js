@@ -47,7 +47,7 @@ function About() {
                     <p className="leading-tight text-cyan-900">Hi, I'm Aldreich, Photo/Video Editor, and UI/UX Designer</p>
                 </div>
                 <div className="flex text-slate-700 px-24 lg:px-0" data-aos="fade-up">
-                    <div className="w-1/2 lg:text-xl text-md">
+                    <div className="w-1/2 xl:text-xl text-md">
                         <ul className="leading-9 ">
                             <li><KeyboardArrowRightOutlinedIcon/> Design and Branding</li>
                             <li><KeyboardArrowRightOutlinedIcon/> Creative Poster Design</li>
@@ -55,7 +55,7 @@ function About() {
                             <li><KeyboardArrowRightOutlinedIcon/> Website Design</li>
                         </ul>
                     </div>
-                    <div className="w-1/2 lg:text-xl text-md">
+                    <div className="w-1/2 xl:text-xl text-md">
                         <ul className="leading-9">
                             <li><KeyboardArrowRightOutlinedIcon/> Vexel and Vector Art Design</li>
                             <li><KeyboardArrowRightOutlinedIcon/> Photo Editing and Retouching</li>
