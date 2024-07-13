@@ -101,40 +101,40 @@ function Projects() {
             grid-cols-1
             sm:grid-cols-2
             lg:grid-cols-3">
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work1} alt="Work 1" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work1} alt="Work 1" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work2} alt="Work 2" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work2} alt="Work 2" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work3} alt="Work 3" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work3} alt="Work 3" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work4} alt="Work 4" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work4} alt="Work 4" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work5} alt="Work 5" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work5} alt="Work 5" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work6} alt="Work 6" data-aos="fade-up" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work6} alt="Work 6" className="shadow-md h-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
 
         <div className="mt-8 grid gap-8
             grid-cols-1
             sm:grid-cols-2">
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work7} alt="Work 7" data-aos="fade-up" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work7} alt="Work 7" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work8} alt="Work 8" data-aos="fade-up" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work8} alt="Work 8" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center">
-                <img src={Work9} alt="Work 9" data-aos="fade-up" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work9} alt="Work 9" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
-            <div className="border p-2 flex justify-center items-center" >
-                <img src={Work10} alt="Work 10" data-aos="fade-up" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
+            <div className="border p-2 flex justify-center items-center" data-aos="fade-up">
+                <img src={Work10} alt="Work 10" className="shadow-md h-full w-full object-fill transform transition-transform duration-300 hover:scale-110"/>
             </div>
         </div>
 
