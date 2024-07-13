@@ -133,22 +133,22 @@ function Projects() {
         <div className="grid gap-5 grid-cols-1 sm:grid-cols-2">
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px'}}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=PrdN0h601Cw' width="100%" height="100%"/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=PrdN0h601Cw' width="100%" height="100%" controls/>
                 </Box>
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=0Ev6Dh4XaKc' width="100%" height="100%" />
+                    <ReactPlayer url='https://www.youtube.com/watch?v=0Ev6Dh4XaKc' width="100%" height="100%" controls/>
                 </Box>
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up"> 
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=8og1edPcUsQ' width="100%" height="100%"/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=8og1edPcUsQ' width="100%" height="100%" controls/>
                 </Box>
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=R3hnaYYYCoQ' width="100%" height="100%"/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=R3hnaYYYCoQ' width="100%" height="100%" controls/>
                 </Box>
             </div>
         </div>
