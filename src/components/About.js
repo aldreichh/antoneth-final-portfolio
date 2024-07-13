@@ -22,31 +22,31 @@ function About() {
         AOS.init({
             duration: 1000, 
             easing: 'ease-in-out',
-            once: false,
+            once: true,
         });
     }, []);
     return (
     <section className="flex justify-center items-center xl:w-[1280px] xl:mx-auto mx-10">
         <div className="lg:flex">
-            <div className="lg:w-2/5 w-full h-full flex-col justify-center items-center border">
-                <div className="w-full h-4/5 flex justify-center items-center lg:p-8 md:px-40 md:py-4 py-8 px-28" data-aos="fade-up">
-                    <img src={ProfilePicture}  alt="Profile" className="object-contain shadow-md"/>
+            <div className="lg:w-2/5 w-full h-full flex flex-col justify-center items-center border">
+                <div className="w-full h-4/5 flex justify-center items-center lg:p-8 md:px-40 md:py-4 py-8 px-28">
+                    <img src={ProfilePicture}  alt="Profile" className="object-contain shadow-md" data-aos="fade-up"/>
                 </div>
-                <div className="w-full flex justify-center items-center text-3xl lg:text-2xl pb-2 text-cyan-900" data-aos="fade-up">
+                <div className="w-3/4 flex justify-center items-center text-3xl lg:text-2xl p-2 text-cyan-900 border-t" data-aos="fade-up">
                     <p>John Aldreich Rosales</p>  
                 </div>
-                <div className="w-full flex justify-center items-center space-x-4 p-2 mb-4" data-aos="fade-up">
+                <div className="w-full flex justify-center items-center space-x-4 mb-4" data-aos="fade-up">
                     <a href="https://www.facebook.com/aldreichj" target="_blank" rel="noopener noreferrer">
-                    <img src={FacebookLogo} alt="Facebook Logo" className="h-10 object-contain"/>
+                    <img src={FacebookLogo} alt="Facebook Logo" className="h-9 object-contain"/>
                     </a>
                     <a href="https://www.linkedin.com/in/aldreichj/" target="_blank" rel="noopener noreferrer">
-                        <img src={LinkedInLogo}  alt="LinkedIn Logo" className="h-10 object-contain"/>
+                        <img src={LinkedInLogo}  alt="LinkedIn Logo" className="h-9 object-contain"/>
                     </a>   
                     <a href="https://twitter.com/otamakibi" target="_blank" rel="noopener noreferrer">
-                        <img src={TwitterLogo}  alt="LinkedIn Logo" className="h-10 object-contain"/>
+                        <img src={TwitterLogo}  alt="LinkedIn Logo" className="h-9 object-contain"/>
                     </a>     
                     <a href="https://github.com/aldreichh" target="_blank" rel="noopener noreferrer">
-                        <img src={GithubLogo}  alt="Github Logo" className="h-10 object-contain"/>
+                        <img src={GithubLogo}  alt="Github Logo" className="h-9 object-contain"/>
                     </a>         
                 </div>
             </div>
