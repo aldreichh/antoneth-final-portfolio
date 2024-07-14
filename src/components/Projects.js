@@ -175,7 +175,7 @@ function Projects() {
                     <img src={DromicSystem4} alt="DromicSystem4"/>
                     <img src={DromicSystem5} alt="DromicSystem5"/>
                 </Carousel>
-                <p className="mt-4 text-xl text-slate-700">DROMIC System | OJT Project</p>
+                <p className="mt-4 text-xl text-slate-700">DROMIC System | Internship Project</p>
                 <button
                     onClick={DromicGithub}
                     type="submit"
