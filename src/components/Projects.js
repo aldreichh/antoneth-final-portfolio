@@ -175,7 +175,7 @@ function Projects() {
                     <img src={DromicSystem4} alt="DromicSystem4"/>
                     <img src={DromicSystem5} alt="DromicSystem5"/>
                 </Carousel>
-                <p className="mt-4 text-xl text-slate-700">Dromic System | OJT Project</p>
+                <p className="mt-4 text-xl text-slate-700">DROMIC System | OJT Project</p>
                 <button
                     onClick={DromicGithub}
                     type="submit"
@@ -267,7 +267,7 @@ function Projects() {
                     <img src={AGB6} alt="AGB6"/>
                     <img src={AGB7} alt="AGB7"/>
                 </Carousel>
-                <p className="mt-4 text-xl text-slate-700">AGB Inventory System</p>
+                <p className="mt-4 text-xl text-slate-700">AGB Inventory System | Commission Project</p>
                 <button
                     onClick={AGBGithub}
                     type="submit"
@@ -301,7 +301,7 @@ function Projects() {
                     <img src={Skwelahome16} alt="Skwelahome16"/>
                     <img src={Skwelahome17} alt="Skwelahome17"/>
                 </Carousel>
-                <p className="mt-4 text-xl text-slate-700">Skwelahome LMS</p>
+                <p className="mt-4 text-xl text-slate-700">Skwelahome LMS | Commission Project</p>
                 <button
                     onClick={SkwelahomeGithub}
                     type="submit"
