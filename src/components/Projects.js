@@ -138,7 +138,7 @@ function Projects() {
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=0Ev6Dh4XaKc' width="100%" height="100%" controls/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=EuaVJKXrVis' width="100%" height="100%" controls/>
                 </Box>
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up"> 
@@ -148,7 +148,7 @@ function Projects() {
             </div>
             <div className="p-2 flex justify-center items-center" data-aos="fade-up">
                 <Box sx={{ boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)', p: 0, width: '600px', height: '400px' }}>
-                    <ReactPlayer url='https://www.youtube.com/watch?v=R3hnaYYYCoQ' width="100%" height="100%" controls/>
+                    <ReactPlayer url='https://www.youtube.com/watch?v=7ui6ygKyocM' width="100%" height="100%" controls/>
                 </Box>
             </div>
         </div>
