@@ -37,7 +37,7 @@ function Apps(){
             </div>          
             <div className="flex flex-col items-center justify-center space-y-2 w-1/2 lg:w-auto mt-8 lg:mt-0">
                 <img src={ReactJSLogo} alt="React Logo" className="h-16 object-contain rounded-md" data-aos="fade-up"/>
-                <label className="text-lg" data-aos="fade-up">ReactJS</label>
+                <label className="text-lg" data-aos="fade-up">React JS</label>
             </div>      
             <div className="flex flex-col items-center justify-center space-y-2 w-1/2 lg:w-auto mt-8 lg:mt-0">
                 <img src={HTMLLogo} alt="HTML Logo" className="h-16 object-contain rounded-md" data-aos="fade-up"/>
