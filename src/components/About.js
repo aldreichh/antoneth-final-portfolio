@@ -32,10 +32,7 @@ function About() {
                     </a>
                     <a href="https://www.linkedin.com/in/aldreichj/" target="_blank" rel="noopener noreferrer">
                         <img src={LinkedInLogo}  alt="LinkedIn Logo" className="h-9 object-contain"/>
-                    </a>   
-                    <a href="https://twitter.com/otamakibi" target="_blank" rel="noopener noreferrer">
-                        <img src={TwitterLogo}  alt="LinkedIn Logo" className="h-9 object-contain"/>
-                    </a>     
+                    </a>      
                     <a href="https://github.com/aldreichh" target="_blank" rel="noopener noreferrer">
                         <img src={GithubLogo}  alt="Github Logo" className="h-9 object-contain"/>
                     </a>         
