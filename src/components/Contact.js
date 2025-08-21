@@ -28,7 +28,7 @@ function Contact() {
     e.preventDefault();
     setChecker('');
     setLoading(true);
-    emailjs.send('service_brngx5k', 'template_nf1f4cn', formData, '46subCmSwtOb2u6M-')
+    emailjs.send('service_wv8jite', 'template_oghkceh', formData, 'L0IJxpW6_CxTV9LC0')
       .then((result) => {
         console.log('Email successfully sent!', result.text);
         setLoading(false);
@@ -39,7 +39,7 @@ function Contact() {
         console.error('There was an error sending the email:', error.text);
       });
 
-  setFormData({
+    setFormData({
       name: '',
       email: '',
       message: ''
@@ -51,102 +51,101 @@ function Contact() {
       <div className="flex flex-col w-full h-full">
         <div className="justify-center items-center flex p-10">
           <div className="flex-col">
-            <p className="flex justify-center text-xl text-slate-700" data-aos="fade-up">Contact</p>
-            <p className="flex justify-center text-4xl font-semibold text-cyan-900" data-aos="fade-up">Get In Touch</p>
+            <p className="flex justify-center text-xl text-rose-400" data-aos="fade-up">Contact</p>
+            <p className="flex justify-center text-4xl font-semibold text-rose-400" data-aos="fade-up">Get In Touch</p>
           </div>
         </div>
 
         <div className="flex flex-col lg:flex-row h-full lg:space-x-8 lg:space-y-0 space-y-4">           
-          <div className="lg:w-1/3 w-full lg:p-10 p-6  bg-slate-200 flex-col flex space-y-10 lg:text-start text-center">
+          <div className="lg:w-1/3 w-full lg:p-10 p-6 bg-white flex-col flex space-y-10 lg:text-start text-center rounded-2xl border border border-gray-200">
             <div data-aos="fade-up">
-              <div className="mb-1">
-                  <LocationOnOutlinedIcon/>
+              <div className="mb-1 text-rose-500">
+                <LocationOnOutlinedIcon/>
               </div>
-              <label className="text-md font-semibold">Address</label>
-              <p className="text-lg text-slate-700">Davao City, Davao del Sur, Philippines</p>
+              <label className="text-md font-semibold text-rose-600">Address</label>
+              <p className="text-lg text-gray-600">Davao City, Davao del Sur, Philippines</p>
             </div>
             <div data-aos="fade-up">
-              <div className="mb-1">
+              <div className="mb-1 text-rose-500">
                 <CallOutlinedIcon/>
               </div>
-              <label className="text-md font-semibold">Contact Number</label>
-              <p className="text-lg text-slate-700">(+63) 927 391 3735</p>
+              <label className="text-md font-semibold text-rose-600">Contact Number</label>
+              <p className="text-lg text-gray-600">(+63) 961 072 2203</p>
             </div>
             <div data-aos="fade-up">
-              <div className="mb-1">
+              <div className="mb-1 text-rose-500">
                 <MailOutlinedIcon/>
               </div>
-              <label className="text-md font-semibold">Email</label>
-              <p className="text-lg text-slate-700">jaldreichrosales@gmail.com</p>
+              <label className="text-md font-semibold text-rose-600">Email</label>
+              <p className="text-lg text-gray-600">antonethbacalla2@gmail.com</p>
             </div>
           </div>
 
-          <div className="lg:w-2/3 w-full flex items-center justify-center border px-5">
+          <div className="lg:w-2/3 w-full flex items-center justify-center rounded-2xl px-5 border border border-gray-200">
             <form className="p-6 w-full" onSubmit={handleSubmit}>
               <div className="flex mb-4 space-x-4">
                 <div className="w-1/2" data-aos="fade-up">
-                  <label className="mb-3 block text-lg font-medium text-gray-700">Name</label>
+                  <label className="mb-3 block text-lg font-medium text-rose-600">Name</label>
                   <input
-                    placeholder="John Aldreich Rosales"
+                    placeholder="Antoneth Bacalla"
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="p-4 mt-1 h-10 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="p-4 mt-1 h-10 block w-full bg-white rounded-lg shadow-sm focus:border-rose-300 focus:ring focus:ring-rose-200 focus:ring-opacity-50"
                     required
                   />
                 </div>
                 <div className="w-1/2" data-aos="fade-up">
-                  <label className="mb-3 block text-lg font-medium text-gray-700">Email</label>
+                  <label className="mb-3 block text-lg font-medium text-rose-600">Email</label>
                   <input
-                    placeholder="jaldreichrosales@gmail.com"
+                    placeholder="antonethbacalla2@gmail.com"
                     type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="p-4 mt-1 h-10 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    className="p-4 mt-1 h-10 block w-full bg-white rounded-lg shadow-sm focus:border-rose-300 focus:ring focus:ring-rose-200 focus:ring-opacity-50"
                     required
                   />
                 </div>
               </div>
               <div className="mb-4" data-aos="fade-up">
-                <label className="mb-3 block text-lg font-medium text-gray-700">Message</label>
+                <label className="mb-3 block text-lg font-medium text-rose-600">Message</label>
                 <textarea
                   placeholder="Write your message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  className="p-4 mt-1 block w-full border-gray-300 bg-slate-50 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="p-4 mt-1 block w-full bg-white rounded-lg shadow-sm focus:border-rose-300 focus:ring focus:ring-rose-200 focus:ring-opacity-50"
                   rows="6"
                   required
                 ></textarea>
               </div>
               <div className="flex items-center">
-              <button data-aos="fade-up"
-                type="submit"
-                className="mr-2 lg:w-3/12 w-5/4 py-3 px-4 border border-transparent shadow-sm text-sm font-medium text-white bg-cyan-800 hover:bg-cyan-900"
-              >
-                Send Message
-              </button>
-              {checker === 'Success' && (
-                <div className="flex items-center">
-                  <DoneAllOutlinedIcon sx={{ color: 'green' }} />
-                  <p className="ml-1 text-green-700">Message Sent!</p>
-                </div>
-              )}
-              {checker === 'Error' && (
-                <div className="flex items-center">
-                  <ErrorOutlineOutlinedIcon sx={{color:'red'}}/>
-                  <p className="ml-1 text-red-700">Failed!</p>
-                </div>
-              )}    
-              {loading ? (
-                <div className="flex items-center">
-                  <RefreshOutlinedIcon className="animate-spin"/>     
-                </div>
-              ) : null} 
+                <button data-aos="fade-up"
+                  type="submit"
+                  className="mr-2 lg:w-3/12 w-5/4 py-3 px-4 border border-transparent shadow-sm text-sm font-medium text-white bg-rose-500 hover:bg-rose-400 rounded-lg"
+                >
+                  Send Message
+                </button>
+                {checker === 'Success' && (
+                  <div className="flex items-center">
+                    <DoneAllOutlinedIcon sx={{ color: 'green' }} />
+                    <p className="ml-1 text-green-600">Message Sent!</p>
+                  </div>
+                )}
+                {checker === 'Error' && (
+                  <div className="flex items-center">
+                    <ErrorOutlineOutlinedIcon sx={{color:'red'}}/>
+                    <p className="ml-1 text-red-600">Failed!</p>
+                  </div>
+                )}    
+                {loading ? (
+                  <div className="flex items-center">
+                    <RefreshOutlinedIcon className="animate-spin text-rose-500"/>     
+                  </div>
+                ) : null} 
               </div>
-              
             </form>
           </div>
         </div>
