@@ -30,13 +30,13 @@ function About() {
                     </div>
                     <div className="w-full flex justify-center items-center space-x-4 mb-4 py-2" data-aos="fade-up">
                         <a href="https://www.facebook.com/bacallantoneth" target="_blank" rel="noopener noreferrer">
-                            <img src={FacebookLogo} alt="Facebook Logo" className="h-8 md:h-12 object-contain"/>
+                            <img src={FacebookLogo} alt="Facebook Logo" className="h-10 md:h-12 object-contain"/>
                         </a>
                         <a href="https://www.linkedin.com/in/antoneth-bacalla-12a490372/" target="_blank" rel="noopener noreferrer">
-                            <img src={LinkedInLogo} alt="LinkedIn Logo" className="h-8 md:h-12 object-contain"/>
+                            <img src={LinkedInLogo} alt="LinkedIn Logo" className="h-10 md:h-12 object-contain"/>
                         </a>      
                         <a href="https://www.instagram.com/antonething/" target="_blank" rel="noopener noreferrer">
-                            <img src={InstagramLogo} alt="Instagram Logo" className="h-8 md:h-12 object-contain"/>
+                            <img src={InstagramLogo} alt="Instagram Logo" className="h-10 md:h-12 object-contain"/>
                         </a>    
                     </div>
                 </div>
@@ -45,13 +45,14 @@ function About() {
                 <div className="lg:w-3/5 flex-col justify-center items-center p-5 lg:px-10 space-y-6">
                     {/* Intro Title */}
                     <div 
-                className="flex text-start items-center text-3xl md:text-5xl xl:text-6xl font-bold leading-relaxed text-rose-400 px-6 lg:px-0"
+                        className="flex text-center xl:text-start md:text-center items-center text-3xl md:text-5xl 
+                            xl:text-6xl font-bold leading-relaxed text-rose-400 px-6 lg:px-0"
                 data-aos="fade-up"
                 >
-                <p>
-                    Hi, I'm Antoneth, <br/> 
-                    Virtual Assistant & Customer Support Specialist!
-                </p>
+                    <p>
+                        Hi, I'm Antoneth, <br/> 
+                        Virtual Assistant & Customer Support Specialist!
+                    </p>
                 </div>
                     {/* About me */}
                     <div className="flex text-rose-400 px-6 lg:px-0 gap-6 text-base md:text-lg xl:text-xl tracking-wide" data-aos="fade-up">
@@ -85,7 +86,7 @@ function About() {
                     </div>
 
                     {/* Button */}
-                    <div className="mt-4 flex justify-start items-center px-6 lg:px-0" data-aos="fade-up">
+                    <div className="mt-4 flex justify-center xl:justify-start md:justify-center items-center px-6 lg:px-0" data-aos="fade-up">
                         <Button 
                             variant="contained"
                             sx={{

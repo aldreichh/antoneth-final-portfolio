@@ -4,7 +4,7 @@ function Home() {
         <div className="flex-col w-full xl:pt-48 xl:pb-40 pt-32 pb-16 rounded-2xl">
             <div className="h-96 flex-col flex justify-center items-center py-56 bg-gradient-to-r from-pink-100 via-rose-100 to-orange-100 xl:mx-0 sm:mx-10 md:mx-10 rounded-2xl shadow-sm">
                 <div className="text-center" data-aos="fade-up">
-                    <p className="text-7xl font-bold space-x-5 text-shadow-xl">
+                    <p className="text-6xl xl:text-7xl font-bold space-x-5 text-shadow-xl">
                         <span className="text-rose-400">Antoneth</span>
                         <span className="text-orange-400">Bacalla</span>
                     </p>
