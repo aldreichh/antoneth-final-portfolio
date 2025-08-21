@@ -1,12 +1,8 @@
-import Work1 from '../works/poster2.jpg';
+
 import Work2 from '../works/work5.jpg';
-import Work3 from '../works/work2.jpg';
-import Work4 from '../works/totebagdesign.png';
 import Work5 from '../works/work3.jpg';
 import Work6 from '../works/milkteaposter.jpg';
-import Work7 from '../works/esportdesign.jpg';
 import Work8 from '../works/work4.jpg';
-import Work9 from '../works/work1.jpg';
 import Work10 from '../works/work6.jpg';
 import kristymia1 from '../images/kristymia/kristymia1.png';
 import kristymia2 from '../images/kristymia/kristymia2.png';
@@ -20,8 +16,6 @@ import impacttruth2 from '../images/impacttruth/impacttruth2.png';
 import impacttruth3 from '../images/impacttruth/impacttruth3.png';
 import impacttruth4 from '../images/impacttruth/impacttruth4.png';
 import impacttruth5 from '../images/impacttruth/impacttruth5.png';
-import ReactPlayer from 'react-player'
-import Box from '@mui/material/Box';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import { InstagramEmbed } from "react-social-media-embed";
