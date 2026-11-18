@@ -9,7 +9,7 @@ import Asana from '../images/Logo/AsanaLogo.png';
 
 function Apps() {
   return (
-    <div className="h-full flex flex-col justify-center items-center space-y-14 overflow-auto py-28 bg-gradient-to-b from-pink-50 via-rose-50 to-orange-50 rounded-2xl shadow-sm">
+    <div className="h-full flex flex-col justify-center items-center space-y-14 overflow-auto py-28 bg-pink-100 rounded-2xl shadow-sm">
       
       {/* Title */}
       <div className="text-center space-y-2">
@@ -17,7 +17,7 @@ function Apps() {
           Apps
         </p>
         <p 
-          className="text-3xl md:text-5xl font-bold bg-gradient-to-r from-rose-400 via-pink-400 to-orange-300 text-transparent bg-clip-text"
+          className="text-3xl md:text-5xl font-bold bg-rose-400 text-transparent bg-clip-text"
           data-aos="fade-up"
         >
           Used Technologies

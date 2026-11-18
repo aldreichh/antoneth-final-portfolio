@@ -57,20 +57,13 @@ function Contact() {
         </div>
 
         <div className="flex flex-col lg:flex-row h-full lg:space-x-8 lg:space-y-0 space-y-4">           
-          <div className="lg:w-1/3 w-full lg:p-10 p-6 bg-white flex-col flex space-y-10 lg:text-start text-center rounded-2xl border border border-gray-200">
+          <div className="justify-center lg:w-1/3 w-full lg:p-10 p-6 bg-white flex-col flex space-y-14 lg:text-start text-center rounded-2xl border border border-gray-200">
             <div data-aos="fade-up">
               <div className="mb-1 text-rose-500">
                 <LocationOnOutlinedIcon/>
               </div>
               <label className="text-md font-semibold text-rose-600">Address</label>
               <p className="text-lg text-gray-600">Davao City, Davao del Sur, Philippines</p>
-            </div>
-            <div data-aos="fade-up">
-              <div className="mb-1 text-rose-500">
-                <CallOutlinedIcon/>
-              </div>
-              <label className="text-md font-semibold text-rose-600">Contact Number</label>
-              <p className="text-lg text-gray-600">(+63) 961 072 2203</p>
             </div>
             <div data-aos="fade-up">
               <div className="mb-1 text-rose-500">
@@ -87,7 +80,7 @@ function Contact() {
                 <div className="w-1/2" data-aos="fade-up">
                   <label className="mb-3 block text-lg font-medium text-rose-600">Name</label>
                   <input
-                    placeholder="Antoneth Bacalla"
+                    placeholder="Your Name"
                     type="text"
                     name="name"
                     value={formData.name}
@@ -99,7 +92,7 @@ function Contact() {
                 <div className="w-1/2" data-aos="fade-up">
                   <label className="mb-3 block text-lg font-medium text-rose-600">Email</label>
                   <input
-                    placeholder="antonethbacalla2@gmail.com"
+                    placeholder="youremail@gmail.com"
                     type="email"
                     name="email"
                     value={formData.email}

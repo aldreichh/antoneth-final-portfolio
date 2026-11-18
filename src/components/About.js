@@ -17,7 +17,7 @@ function About() {
 
     return (
         <section className="flex justify-center items-center xl:w-[1280px] xl:mx-auto mx-10">
-            <div className="lg:flex bg-gradient-to-r from-pink-50 via-rose-50 to-orange-50 rounded-2xl shadow-sm">
+            <div className="lg:flex rounded-2xl shadow-sm">
                 {/* Profile + Socials */}
                 <div className="lg:w-2/5 w-full h-full flex flex-col justify-center items-center border-r border-pink-100">
                     <div className="w-full h-4/5 flex justify-center items-center lg:px-8 md:px-40 md:py-4 py-8 px-20">
